@@ -13,7 +13,7 @@ export const loader: LoaderFunction = async () => {
 };
 
 export default function PostAdmin() {
-  const { posts } = useLoaderData() as LoaderData;
+  const { posts } = useLoaderData();
   return (
     <div className="mx-auto max-w-4xl">
       <h1 className="my-6 mb-5 pb-4 border-b-2 text-center text-4xl font-semibold">

@@ -15,7 +15,7 @@ export const loader = async () => {
 };
 
 export default function Posts() {
-  const { posts } = useLoaderData() as LoaderData;
+  const { posts } = useLoaderData();
   console.log(posts);
   return (
     <main className="relative min-h-screen bg-slate-200 sm:flex sm:items-center sm:justify-center">
