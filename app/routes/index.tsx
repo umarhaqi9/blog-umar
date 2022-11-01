@@ -27,7 +27,7 @@ export default function Index() {
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
                 This is my first ever blog post website using Remix framework.
               </p>
-              {/* <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+              <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                 {user ? (
                   <Link
                     to="/notes"
@@ -51,7 +51,7 @@ export default function Index() {
                     </Link>
                   </div>
                 )}
-              </div> */}
+              </div>
               <a href="https://remix.run">
                 <img
                   src="https://user-images.githubusercontent.com/1500684/158298926-e45dafff-3544-4b69-96d6-d3bcc33fc76a.svg"
